@@ -1,4 +1,4 @@
-class Family2 {
+/*class Family2 {
     constructor(
         public readonly name: string,
         public readonly castles: string[]
@@ -35,4 +35,4 @@ getCastlesByFamily2("Stark")
     .then(numberCastles => console.log(`# Castillos encontrados: ${numberCastles}`))
     .catch(err => console.log(`Error: ${err}`));
 
-console.log("Terminando la busqueda...");
+console.log("Terminando la busqueda...");*/

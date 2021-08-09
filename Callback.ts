@@ -1,4 +1,4 @@
-class Family {
+/*class Family {
     constructor(
         public readonly name: string,
         public readonly castles: string[]
@@ -40,4 +40,4 @@ function logCastleSearch(err?:Error, castles?:string[]):void{
 
 console.log("Comenzando la busqueda...");
 getCastlesByFamily("Lannister2",logCastleSearch);
-console.log("Busqueda terminada...");
+console.log("Busqueda terminada...");*/
