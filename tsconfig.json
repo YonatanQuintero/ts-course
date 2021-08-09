@@ -1,0 +1,28 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "allowJs": true,
+        "noEmit": true,
+        "alwaysStrict": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "moduleResolution": "Node",
+        "declaration": true,
+        "lib": [
+            "es6", "DOM"
+        ]
+    },
+    "include": [
+        "index.ts",
+        "lib/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
